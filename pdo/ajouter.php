@@ -1,7 +1,6 @@
 <?php
 session_start();
-require_once 'db.php';
-require_once 'students.php';
+require_once 'autoloader.php';
 
 
 $stconn = new Student($conn);
