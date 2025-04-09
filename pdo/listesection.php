@@ -1,8 +1,6 @@
 <?php
 session_start();
-require_once 'datab.php';
-require_once 'students.php';
-require_once 'sections.php';
+require_once 'autoloader.php';
 
 if (!isset($_GET['id'])) {
   echo "ID not provided";
