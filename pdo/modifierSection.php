@@ -1,7 +1,6 @@
 <?php
 session_start();
-require_once 'db.php';
-require_once 'sections.php';
+require_once 'autoloader.php';
 
 if (!isset($_GET['id'])) {
   echo "ID not provided";
