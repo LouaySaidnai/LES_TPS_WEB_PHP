@@ -1,5 +1,5 @@
 <?php
-require_once 'datab.php';
+require_once 'autoloader.php';
 
 class Section
 {
