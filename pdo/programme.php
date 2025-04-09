@@ -1,8 +1,5 @@
 <?php
-require_once 'Database.php';
-require_once 'Repository.php';
-require_once 'UserRepository.php';
-require_once 'SectionRepository.php';
+require_once 'autoloader.php';
 
 ConnexionBD::connect('mydb', 'root', '');
 
